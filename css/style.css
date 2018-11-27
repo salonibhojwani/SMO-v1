@@ -1,0 +1,25 @@
+body {
+  background-image: url("../smobackground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  color: yellow;
+  size: 30px;
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 3px 2px red;
+}
+h2 {
+  text-align: center;
+  size: 15px;
+  color: red;
+}
+button {
+  background-color: pink;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 8px;
+  display: inline-block;
+}
