@@ -1,0 +1,50 @@
+body {
+  background-image: url("../smobackground.png");
+  background-size: cover;
+}
+h1 {
+  color: yellow;
+  size: 30px;
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 3px 2px red;
+}
+h2 {
+  text-align: center;
+  size: 15px;
+  color: red;
+}
+.menu {
+  background-color: pink;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 8px;
+  display: inline-block;
+}
+.form {
+  width: 800px;
+  margin: 0 auto;
+
+}
+.field {
+  text-align: center;
+}
+
+.field label {
+  font-size: 30px
+  color: white;
+  font-weight: 500;
+  display: block;
+}
+.field input {
+  text-align: center;
+  width: 200px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+.field textarea {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 20px;
+}
