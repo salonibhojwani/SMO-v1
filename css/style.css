@@ -28,6 +28,7 @@ ul {
   font-size: 30px;
   border-radius: 8px;
   display: inline-block;
+  margin-bottom: 20px
 }
 .form {
   width: 800px;
@@ -58,7 +59,6 @@ ul {
 .navigation {
   text-align: center;
   margin-top: 20px;
-  margin-bottom: 20px;
 }
 .btn-twitter {
 background: #00acee;
@@ -86,6 +86,7 @@ text-align: center;
   background-color: lightblue;
   align-items: center;
   padding: 20px;
+  margin-top: 20px;
 }
 .img-cakes {
   width: 300px;
@@ -116,4 +117,9 @@ text-align: center;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.text-center {
+  text-align: center;
+  margin: auto;
+  width: 50%;
 }
