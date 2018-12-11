@@ -13,7 +13,7 @@
   <a class="menu" href="./contactus.html">Contact Us</a>
 </div>
 <div class="form">
-<form action="">
+<form>
   <div class="field">
   <label for="name">Name</label>
   <input name="name" id="name" type="text" placeholder="Enter your name" />
@@ -27,9 +27,27 @@
   <textarea name="message" id="message"></textarea>
 </div>
 <div class="field">
-<input class="menu" value="Feed me" type="submit"/>
+<button class="submit menu">Feed me</button>
+</div>
+<p id="demo"></p>
+<div class="giphy">
+  <button class="close">close</button>
+<iframe src="https://giphy.com/embed/4C4Zxqs5QibUQ" width="480" height="361" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/eating-gerbil-4C4Zxqs5QibUQ">via GIPHY</a></p>
 </div>
 </form>
 </div>
+<script>
+document.body.querySelector('form').onsubmit = function(event) {event.preventDefault()}
+var btn = document.body.querySelector('button.submit');
+var closebtn = document.body.querySelector('.giphy button.close');
+var giphy = document.body.querySelector('.giphy');
+btn.onclick = function() {
+  giphy.style.display = 'block';
+}
+closebtn.onclick = function() {
+  giphy.style.display = 'none';
+}
+
+</script>
 </body>
 </html>
